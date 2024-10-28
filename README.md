@@ -643,3 +643,196 @@ struct Conditional<true> {
 // Usage
 std::cout << Conditional<(5 > 3)>::value; // Outputs "True"
 ```
+
+
+
+
+```
+1. Basic Arithmetic Operators
+Addition (+)
+Syntax: result = a + b;
+
+Example:
+int a = 5;
+int b = 3;
+int result = a + b; // result is 8
+
+Subtraction (-)
+Syntax: result = a - b;
+
+Example:
+int a = 5;
+int b = 3;
+int result = a - b; // result is 2
+
+Multiplication (*)
+Syntax: result = a * b;
+
+Example:
+int a = 5;
+int b = 3;
+int result = a * b; // result is 15
+
+Division (/)
+Syntax: result = a / b;
+
+Example:
+int a = 6;
+int b = 3;
+int result = a / b; // result is 2
+
+Modulus (%)
+Syntax: result = a % b;
+
+Example:
+int a = 5;
+int b = 3;
+int result = a % b; // result is 2 (remainder of 5 divided by 3)
+
+2. Compound Assignment Operators
+Addition Assignment (+=)
+Syntax: a += b;
+
+Example:
+int a = 5;
+a += 3; // a is now 8
+
+Subtraction Assignment (-=)
+Syntax: a -= b;
+
+Example:
+int a = 5;
+a -= 3; // a is now 2
+
+Multiplication Assignment (*=)
+Syntax: a *= b;
+
+Example:
+int a = 5;
+a *= 3; // a is now 15
+
+Division Assignment (/=)
+Syntax: a /= b;
+
+Example:
+int a = 6;
+a /= 3; // a is now 2
+
+Modulus Assignment (%=)
+Syntax: a %= b;
+
+Example:
+int a = 5;
+a %= 3; // a is now 2
+
+3. Unary Operators
+Unary Plus (+)
+Syntax: +a;
+
+Example:
+int a = 5;
+int result = +a; // result is 5
+
+Unary Minus (-)
+Syntax: -a;
+
+Example:
+int a = 5;
+int result = -a; // result is -5
+
+4. Floating-Point Division
+Example:
+double a = 5;
+double b = 2;
+double result = a / b; // result is 2.5
+
+5. Type Casting
+Example:
+int a = 5;
+double b = 2.0;
+double result = a / b; // result is 2.5
+
+6. Integer Division
+Example:
+int a = 5;
+int b = 2;
+int result = a / b; // result is 2 (not 2.5)
+
+7. Overflow and Underflow
+Example:
+int a = INT_MAX; // Maximum value for int
+int result = a + 1; // Overflow occurs
+
+8. Using std::abs for Absolute Values
+Example:
+#include <cmath>
+int a = -5;
+int result = std::abs(a); // result is 5
+
+9. Using std::pow for Exponentiation
+Example:
+#include <cmath>
+double result
+
+9. Using std::pow for Exponentiation
+Example:
+#include <cmath>
+double result = std::pow(2, 3); // result is 8 (2 raised to the power of 3)
+
+10. Using std::sqrt for Square Roots
+Example:
+#include <cmath>
+double result = std::sqrt(16); // result is 4
+
+11. Using std::fmod for Floating-Point Modulus
+Example:
+#include <cmath>
+double result = std::fmod(5.5, 2.0); // result is 1.5
+
+12. Combinations of Operators
+
++-: Subtracting a value from another.
+int a = 5;
+int b = 3;
+int result = a + -b; // result is 2 (5 + (-3))
+
+-+: Adding a value to a negative.
+int a = 5;
+int b = 3;
+int result = a - +b; // result is 2 (5 - 3)
+
++*: Multiplying a value and then adding.
+int a = 5;
+int b = 3;
+int result = a + (b * 2); // result is 11 (5 + (3 * 2))
+
+-*: Subtracting a product.
+int a = 5;
+int b = 3;
+int result = a - (b * 2); // result is -1 (5 - (3 * 2))
+
+*+: Multiplying and then adding.
+int a = 5;
+int b = 3;
+int result = (a * 2) + b; // result is 13 ((5 * 2) + 3)
+
+*-: Multiplying and then subtracting.
+int a = 5;
+int b = 3;
+int result = (a * 2) - b; // result is 7 ((5 * 2) - 3)
+
+Summary of Arithmetic Operators and Concepts
+
+Basic Arithmetic Operators: +, -, *, /, %
+Compound Assignment Operators: +=, -=, *=, /=, %=
+Unary Operators: Unary Plus (+), Unary Minus (-)
+Floating-Point Division
+Type Casting
+Integer Division
+Overflow and Underflow
+Using std::abs for Absolute Values
+Using std::pow for Exponentiation
+Using std::sqrt for Square Roots
+Using std::fmod for Floating-Point Modulus
+Combinations of Operators: +-, -+, +*, -*, *+, *-
+```
