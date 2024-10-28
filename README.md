@@ -11,7 +11,6 @@ https://www.learncpp.com/
 https://www.w3schools.com/cpp
 ```
 
-
 ## Including Libraries
 
 ```
@@ -131,8 +130,6 @@ https://www.w3schools.com/cpp
 
 ```
 
-
-
 ### Standard Library Functions
 
 ```
@@ -195,8 +192,6 @@ json::dump() - Serialize JSON to a string
 json::operator[] - Access JSON elements
 ```
 
-
-
 ## Input/Output
 
 ```
@@ -216,8 +211,6 @@ Output: printf (C-style output)
 Input: std::cerr (for error output)
 Output: std::clog (for logging output)
 ```
-
-
 
 ## Variables and Data Types
 
@@ -268,8 +261,6 @@ Enumeration:
 enum EnumName { VALUE1, VALUE2 }; (e.g., enum Color { RED, GREEN, BLUE };)
 ```
 
-
-
 ## Control Structures
 
 ```
@@ -312,7 +303,6 @@ continue; // Skips the current iteration of the loop
 Return Statement:
 return value; // Exits the function and optionally returns a value
 ```
-
 
 ## Functions
 
@@ -377,8 +367,6 @@ Multiplication (*): Multiplies two numbers. (product)
 Division (/): Divides one number by another, yields quotient. (quotient)
 Modulus (%): Divides one number by another, yields remainder. (remainder)
 
-
-
 Relational Operators
 Equal to (==): Returns true if both operands are equal.
 Not equal to (!=): Returns true if operands are not equal.
@@ -399,3 +387,259 @@ Bitwise XOR (^)
 Bitwise NOT (~)
 Bitwise Left Shift (<<)
 Bitwise Right Shift (>>)
+
+
+
+# Loops in C++
+
+```
+1. For Loop
+Syntax:
+for (initialization; condition; increment/decrement) {
+    // Code
+}
+
+Example:
+for (int i = 0; i < 5; i++) {
+    cout << "Iteration: " << i << endl;
+}
+
+2. While Loop
+Syntax:
+while (condition) {
+    // Code
+}
+
+Example:
+int i = 0;
+while (i < 5) {
+    cout << "Iteration: " << i << endl;
+    i++;
+}
+
+3. Do-While Loop
+Syntax:
+do {
+    // Code
+} while (condition);
+
+Example:
+int i = 0;
+do {
+    cout << "Iteration: " << i << endl;
+    i++;
+} while (i < 5);
+
+4. Range-Based For Loop
+Syntax:
+for (declaration : container) {
+    // Code
+}
+
+Example:
+vector<int> numbers = {1, 2, 3, 4, 5};
+for (int num : numbers) {
+    cout << "Number: " << num << endl;
+}
+
+5. Nested Loops
+Syntax:
+for (initialization; condition; increment/decrement) {
+    for (initialization; condition; increment/decrement) {
+        // Code
+    }
+}
+
+Example:
+for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 3; j++) {
+        cout << "i: " << i << ", j: " << j << endl;
+    }
+}
+
+6. Infinite Loop
+Syntax:
+while (true) {
+    // Code
+}
+
+Example:
+while (true) {
+    cout << "This will run forever!" << endl;
+    // Use break to exit the loop if needed
+}
+
+7. Break Statement
+Syntax:
+break; // Exits the loop
+
+Example:
+for (int i = 0; i < 10; i++) {
+    if (i == 5) {
+        break; // Exit the loop when i is 5
+    }
+    cout << "i: " << i << endl;
+}
+
+8. Continue Statement
+Syntax:
+continue; // Skips the current iteration
+
+Example:
+for (int i = 0; i < 10; i++) {
+    if (i % 2 == 0) {
+        continue; // Skip even numbers
+    }
+    cout << "i: " << i << endl;
+}
+
+9. Labeled Loop
+Syntax:
+label: loop_type {
+    // Code
+}
+
+Example:
+outer_loop: for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 3; j++) {
+        if (j == 1) {
+            break outer_loop; // Breaks out of the outer loop
+        }
+        cout << "i: " << i << ", j: " << j << endl;
+    }
+}
+```
+
+
+# Logical Operators in C++
+
+```
+1. Logical AND (&&)
+Syntax:
+result = expression1 && expression2;
+
+Example:
+bool a = true;
+bool b = false;
+bool result = a && b; // result is false
+
+2. Logical OR (||)
+Syntax:
+result = expression1 || expression2;
+
+Example:
+bool a = true;
+bool b = false;
+bool result = a || b; // result is true
+
+3. Logical NOT (!)
+Syntax:
+result = !expression;
+
+Example:
+bool a = true;
+bool result = !a; // result is false
+
+4. Bitwise AND (&)
+Syntax:
+result = a & b;
+
+Example:
+int a = 5;  // (binary: 0101)
+int b = 3;  // (binary: 0011)
+int result = a & b; // result is 1 (binary: 0001)
+
+5. Bitwise OR (|)
+Syntax:
+result = a | b;
+
+Example:
+int a = 5;  // (binary: 0101)
+int b = 3;  // (binary: 0011)
+int result = a | b; // result is 7 (binary: 0111)
+
+6. Bitwise NOT (~)
+Syntax:
+result = ~a;
+
+Example:
+int a = 5;  // (binary: 0101)
+int result = ~a; // result is -6 (binary: 1010 in two's complement)
+
+7. Conditional (Ternary) Operator
+Syntax:
+result = condition ? expression1 : expression2;
+
+Example:
+int a = 5;
+int b = 10;
+int max = (a > b) ? a : b; // max will be 10
+
+8. Comparison Operators
+Equal to (==)
+Not equal to (!=)
+Greater than (>)
+Less than (<)
+Greater than or equal to (>=)
+Less than or equal to (<=)
+
+Example:
+int a = 5;
+int b = 10;
+if (a < b) {
+    // This condition can be combined with logical operators
+}
+
+9. Logical XOR (Exclusive OR)
+Implementation:
+result = (a || b) && !(a && b);
+
+Example:
+bool a = true;
+bool b = false;
+bool result = (a || b) && !(a && b); // result is true
+
+10. Using std::logical_and, std::logical_or, and std::logical_not
+Example:
+#include <iostream>
+#include <functional>
+
+using namespace std;
+
+int main() {
+    bool a = true;
+    bool b = false;
+
+    logical_and<bool> and_op;
+    logical_or<bool> or_op;
+    logical_not<bool> not_op;
+
+    cout << "AND: " << and_op(a, b) << endl; // Outputs 0 (false)
+    cout << "OR: " << or_op(a, b) << endl;   // Outputs 1 (true)
+    cout << "NOT a: " << not_op(a) << endl;  // Outputs 0 (false)
+
+    return 0;
+}
+
+11. Short-Circuiting in Function Calls
+Example:
+int safe_divide(int a, int b) {
+    return (b != 0) && (a / b); // Only evaluates a / b if b is not zero
+}
+
+12. Logical Operations in Templates
+Example:
+
+template<bool condition>
+struct Conditional {
+    static const char* value = "False";
+};
+
+template<>
+struct Conditional<true> {
+    static const char* value = "True";
+};
+
+// Usage
+std::cout << Conditional<(5 > 3)>::value; // Outputs "True"
+```
