@@ -1,3 +1,198 @@
+
+
+# 🏆 ICPC + AlgoHub + CPC Intensive Study Plan
+
+**Language Assumption:** C++
+
+This 6-week intensive plan prepares you for ICPC and competitive programming (CP) with a structured and focused approach to mastering algorithms, data structures, and contest strategy. This roadmap ensures steady progress, from fundamental concepts to advanced problem-solving techniques.
+
+## 📅 Study Schedule
+
+Each week builds on the previous one, balancing speed, accuracy, and algorithm mastery for a complete CP preparation.
+
+---
+
+### **Week 1: Core Concepts & Fast Problem-Solving** (Oct 27 - Nov 2)
+
+#### 📌 **Focus**
+
+* Master C++ fundamentals and CP basics.
+* Practice speed and accuracy in problem-solving.
+
+#### 🔍 **Topics**
+
+* **Day 1-2:** C++ Syntax & STL Basics ([Vectors](), [Sets](), [Maps]())
+* **Day 3:** Sorting & Searching ([Binary Search](), Quick Sort)
+* **Day 4:** Recursion & Backtracking
+* **Day 5:** Graph Basics (BFS, DFS)
+* **Day 6:** Basic Dynamic Programming (DP) ([Examples]())
+* **Day 7:** Practice Problems (3-5 Easy-Medium problems) on [Codeforces](https://codeforces.com/)
+
+#### 🎯 **Mock Contest Simulation**
+
+* 🗓️ **Weekend:** Simulate a 2-hour contest on platforms like [Codeforces](https://codeforces.com/) to prepare for the ICPC mock.
+
+---
+
+### **Week 2: Advanced Data Structures & Algorithmic Mastery** (Nov 3 - Nov 7)
+
+#### 📌 **Focus**
+
+Deepen understanding of core algorithms and data structures. Improve problem-solving speed and efficiency.
+
+#### 🔍 **Topics**
+
+* **Day 1:** Advanced Graphs ([Dijkstra](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm), [Floyd-Warshall](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm))
+* **Day 2:** Advanced DP ([Knapsack](), [LCS](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem))
+* **Day 3:** Segment Trees & Binary Indexed Trees
+* **Day 4:** Number Theory ([Modular Arithmetic](), [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes))
+* **Day 5:** Geometry ([Convex Hull](https://en.wikipedia.org/wiki/Convex_hull), [Line Intersection](https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection))
+
+#### 🎯 **Mock Contest**
+
+* 🗓️ **November 8:** 2-hour online contest from 3 PM - 5 PM.
+  * **Review** your mistakes afterward and refine your approach.
+
+---
+
+### **November 9: ICPC Preliminary Contest**
+
+* ⏰  **3 PM - 8 PM** : Contest participation.
+  * **Focus:** Time management, accuracy, and efficient problem selection.  **Post-Contest** : Analyze and understand areas for improvement.
+
+---
+
+### **Weeks 3-4: Refinement & Advanced Practice** (Nov 10 - Nov 23)
+
+#### 📌 **Focus**
+
+Minimize mistakes, reinforce weak areas, and refine strategies.
+
+#### 🔍 **Topics**
+
+* **Day 1-4:** Revisit weak areas (DP, Graphs, Number Theory)
+* **Day 5-7:** Solve past ICPC problems (3-5 timed problems/day)
+* **Day 8-10:** Practice on [Codeforces](https://codeforces.com/) (Div. 2/Div. 3)
+* **Day 11-14:** Simulate two 3-hour contests weekly on [Codeforces](https://codeforces.com/) or [AtCoder](https://atcoder.jp/)
+* **Day 15-16:** Solve challenging problems (Div. 1 on Codeforces)
+
+#### 🎯 **Mock Contests**
+
+Participate in 2 online contests per week to simulate contest conditions and hone time management skills.
+
+---
+
+### **Week 5: Intensive Practice & Error Analysis** (Nov 24 - Nov 30)
+
+#### 📌 **Focus**
+
+Boost problem-solving speed, apply advanced algorithms, and work on complex problems.
+
+#### 🔍 **Topics**
+
+* **Day 1-3:** Advanced Techniques (Divide & Conquer, Fast Exponentiation)
+* **Day 4-5:** Problem-Solving Marathon (5 problems/day)
+* **Day 6-7:** Timed Practice (3 problems in 90 minutes)
+
+#### 🎯 **Mock Contest**
+
+* **Weekend:** 5-hour contest simulation.
+  * **Post-Contest:** Analyze errors, identify recurring mistakes, and study top solutions.
+
+---
+
+### **Week 6: Final Polishing & Contest Strategy** (Dec 1 - Dec 7)
+
+#### 📌 **Focus**
+
+Revise key algorithms, optimize contest strategies, and boost mental readiness.
+
+#### 🔍 **Topics**
+
+* **Day 1-2:** Key Algorithms & Data Structures (create short notes)
+* **Day 3-4:** Solve last year’s ICPC regional problems
+* **Day 5:** Mock contest with friends or online
+
+#### 🎯 **Onsite Mock Contest**
+
+* 🗓️ **December 6** at  **Daffodil Smart City** : Treat this as the final prep round.
+* 🗓️  **December 7** : Onsite Contest - stay calm, manage time, and implement strategies effectively.
+
+---
+
+## 🎯 Key Tips for Success
+
+* **Optimize Time Complexity:** Ensure solutions are efficient in speed and memory.
+* **Balance Speed & Accuracy:** Always test edge cases before submitting.
+* **Warm-Up Before Contests:** Solve 1-2 easy problems to get into the flow.
+* **Stay Calm Under Pressure:** Prioritize problems wisely and aim for correct submissions.
+
+---
+
+## 📚 **Resources**
+
+### C++ Syntax & STL 🌐
+
+* **[C++ Crash Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y) - FreeCodeCamp**
+* **[STL Guide - GeeksforGeeks]()**
+* **[STL Video Series](https://www.youtube.com/watch?v=ZQ4b8yAeAOs) - Luv**
+
+### Sorting & Searching Algorithms 🔍
+
+* **[Sorting Algorithms](https://www.youtube.com/playlist?list=PL1w8k37X_6L9FZxgK7htCd4h4FTOkzo8o) - MyCodeSchool**
+* **[Binary Search](https://www.youtube.com/watch?v=P3YID7liBug) - CodeNCode**
+
+### Recursion & Backtracking 🔄
+
+* **[Recursion &amp; Backtracking](https://www.youtube.com/watch?v=x4euqWW5KFU) - Abdul Bari**
+* **[Backtracking Tutorial](https://www.youtube.com/watch?v=0c7FdmF4hrI) - William Fiset**
+* **[LeetCode Recursion Problems]()**
+
+### Graphs (BFS, DFS, Dijkstra) 🌐
+
+* **[Graph Theory](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsD06K4PFWh5uQb9U8bkGBrv) - William Fiset**
+* **[BFS &amp; DFS](https://www.youtube.com/playlist?list=PL2q4fbVm1Ik6DCzm9XZJbNwyHtHGclcEh) - CodeNCode**
+
+### Dynamic Programming (DP) 📊
+
+* **[Dynamic Programming Playlist](https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go) - CodeNCode**
+* **[DP Playlist](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr) - Clément Mihailescu**
+
+### Segment Trees & Binary Indexed Trees 🌲
+
+* **[Segment Trees](https://www.youtube.com/watch?v=Oq2E2yGadnU) - Tushar Roy**
+* **[Binary Indexed Tree](https://www.youtube.com/watch?v=CWDQJGaN1gY) - MIT OCW**
+
+### Number Theory & Modular Arithmetic 🧮
+
+* **[Number Theory](https://www.youtube.com/playlist?list=PL2q4fbVm1Ik4liHX78IRslXzUr8z5QxsG) - CodeNCode**
+* **[Modular Arithmetic](https://www.youtube.com/watch?v=Uly6IsKNBz0) - Computerphile**
+
+### Geometry 📐
+
+* **[Computational Geometry](https://www.youtube.com/playlist?list=PLQpXNdZ0l3EHxE-lxJ9e2x7cXwAB5hdgW) - William Fiset**
+* **[Geometry Problems]()**
+
+---
+
+Let this guide be your roadmap to ICPC success! 🚀 Keep consistent, stay motivated, and best of luck!
+
+
+## 📊 Progress Tracker
+
+| Week   | Focus                                  | Progress       |
+| ------ | -------------------------------------- | -------------- |
+| Week 1 | Core Concepts & Fast Problem-Solving   | ⬜⬜⬜⬜⬜⬜⬜ |
+| Week 2 | Advanced Data Structures & Mastery     | ⬜⬜⬜⬜⬜⬜⬜ |
+| Week 3 | Refinement & Advanced Practice (Pt. 1) | ⬜⬜⬜⬜⬜⬜⬜ |
+| Week 4 | Refinement & Advanced Practice (Pt. 2) | ⬜⬜⬜⬜⬜⬜⬜ |
+| Week 5 | Intensive Practice & Error Analysis    | ⬜⬜⬜⬜⬜⬜⬜ |
+| Week 6 | Final Polishing & Contest Strategy     | ⬜⬜⬜⬜⬜⬜⬜ |
+
+
+**Note:** Fill each week’s progress with a ✅ as you complete each day’s study plan!
+
+
 # ICPC-AlgoHub-CPC
 
 All Type of programming contest push in this repository.
@@ -388,8 +583,6 @@ Bitwise NOT (~)
 Bitwise Left Shift (<<)
 Bitwise Right Shift (>>)
 
-
-
 # Loops in C++
 
 ```
@@ -509,7 +702,6 @@ outer_loop: for (int i = 0; i < 3; i++) {
     }
 }
 ```
-
 
 # Logical Operators in C++
 
@@ -643,9 +835,6 @@ struct Conditional<true> {
 // Usage
 std::cout << Conditional<(5 > 3)>::value; // Outputs "True"
 ```
-
-
-
 
 ```
 1. Basic Arithmetic Operators
