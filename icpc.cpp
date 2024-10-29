@@ -1,27 +1,17 @@
 #include <iostream>
 
-int hello()
-{
-  std::cout << "Hello, World!" << std::endl;
-  return 0;
+// Function prototype
+int multiplyNumbers(int x, int y);
+
+int main() {
+    int num1 = 3, num2 = 7;
+    int result = multiplyNumbers(num1, num2); // Calling the function
+    std::cout << "The product is: " << result << std::endl;
+    return 0;
 }
 
-int news()
-{
-  int a = 5, b = -10, c = 15;
-
-  if (a < 0 && (b > 0 || c > 0))
-  {
-    std::cout << "At least two values are positive." << std::endl;
-  }
-}
-int main()
-{
-  news ();
-  int number;
-  std::cout << "Enter an integer: ";
-  std::cin >> number;
-  std::cout << "You entered: " << number << std::endl;
-  hello();
-  return 0;
+// Function definition
+int multiplyNumbers(int x, int y) {
+    int product = x * y;
+    return product;
 }
