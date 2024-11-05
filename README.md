@@ -1,5 +1,3 @@
-
-
 # 🏆 ICPC + AlgoHub + CPC Intensive Study Plan
 
 **Language Assumption:** C++
@@ -177,7 +175,6 @@ Revise key algorithms, optimize contest strategies, and boost mental readiness.
 
 Let this guide be your roadmap to ICPC success! 🚀 Keep consistent, stay motivated, and best of luck!
 
-
 ## 📊 Progress Tracker
 
 | Week   | Focus                                  | Progress       |
@@ -189,11 +186,19 @@ Let this guide be your roadmap to ICPC success! 🚀 Keep consistent, stay motiv
 | Week 5 | Intensive Practice & Error Analysis    | ⬜⬜⬜⬜⬜⬜⬜ |
 | Week 6 | Final Polishing & Contest Strategy     | ⬜⬜⬜⬜⬜⬜⬜ |
 
-
 **Note:** Fill each week’s progress with a ✅ as you complete each day’s study plan!
 
-
 # ICPC-AlgoHub-CPC
+
+
+
+
+* **CE** - Compilation error / Syntax error
+* **RE** - Run-time error
+* **WA** - Wrong answer / Logical error
+* **TLE** - Time limit exceeded
+
+
 
 All Type of programming contest push in this repository.
 

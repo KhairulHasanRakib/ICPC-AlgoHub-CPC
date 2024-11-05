@@ -1,0 +1,5 @@
+CE - Compilation error / Syntax error
+RE - Run-time error
+WA - Wrong answer / Logical error
+TLE - Time limit exceeded
+
