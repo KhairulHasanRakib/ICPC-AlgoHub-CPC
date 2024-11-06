@@ -1,13 +1,16 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
 
-int main(){
-    int w;
-    cin >> w;
-    if(w%2==0 && w>=4){
-        cout << "YES";
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    
+    if(b==0) {
+        cout<<"infinity\n";
     }
-    else{
-        cout << "NO";
+    else {
+        cout<<a/b<<"\n";
     }
+    
 }
