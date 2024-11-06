@@ -1,15 +1,13 @@
-#include <iostream>
-#include <typeinfo>
+#include <bits/stdc++.h>
+using namespace std;
 
-class Base { virtual void dummy() {} };
-class Derived : public Base { /* ... */ };
+int main(){
+    cout << "Function: f(x) = 3x - cos(x) - 1" << endl;
+    cout << "Enter X: ";
+    double x;
+    cin >> x;
+    cout << "f(" << x << ") = 3 * " << x << " - cos(" << x << ") - 1 = " << 3 * x - cos(x) - 1 << " is your root" << endl;
+    cout << "Your X is: " << x << endl;
 
-int main() {
-    Base* base_ptr = new Derived;
-
-    // Using typeid to get the type of the object
-    std::cout << "Type: " << typeid(*base_ptr).name() << '\n';
-
-    delete base_ptr;
     return 0;
 }
