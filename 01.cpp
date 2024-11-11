@@ -1,14 +1,12 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
-int main()
-{
-
-    int a = 0;
+int main() {
     // Remove the underscores and complete the code
-    while (a < 7)
-    {
-        cout << a << endl;
-        a = a + 1;
+    int i = 10;
+    while (i >= 0) {
+        cout << i << endl;
+        i = i - 1;
     }
 }
