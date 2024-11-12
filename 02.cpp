@@ -1,19 +1,27 @@
-/*
-Imagine you have a magical garden where flowers bloom in a specific pattern.
-In the first day, a single flower blooms.
-On the second day, two flowers bloom, and
-On the third day, three flowers bloom.
-This pattern continues. Write a program to calculate the minimum number of days needed for the garden to reach a total of at least 100 flowers.
-*/
 #include <bits/stdc++.h>
-#include <iostream>
 using namespace std;
+
 int main()
 {
+    // your code goes here
+    int a, b, c, d;
 
-    int n;
-    cin >> n;
-    cout << n + 1; 
+    cin >> a >> b;
+    c = a * a + 2 * a * b + b * b;
+    d = a + b;
 
-    return 0;
+    cout << c << endl;
+    cout << d << endl;
+
+    cin >> a >> b;
+    c = a * a + 2 * a * b + b * b;
+    d = a + b;
+    cout << c << endl;
+    cout << d << endl;
+
+    cin >> a >> b;
+    c = a * a + 2 * a * b + b * b;
+    d = a + b;
+    cout << c << endl;
+    cout << d << endl;
 }
