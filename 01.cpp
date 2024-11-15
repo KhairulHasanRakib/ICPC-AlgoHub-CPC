@@ -1,12 +1,14 @@
-#include <bits/stdc++.h>
-
+#include <iostream>
 using namespace std;
 
+int globalVar = 10;
+
+void myFunction() {
+    cout << globalVar << endl;  // Accessing the global variable
+}
+
 int main() {
-    // Remove the underscores and complete the code
-    int i = 10;
-    while (i >= 0) {
-        cout << i << endl;
-        i = i - 1;
-    }
+    cout << globalVar << endl;  // Accessible here
+    myFunction();  // Accessible here
+    
 }
