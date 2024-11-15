@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int globalVar = 10;
-
+int globalVar = 10;  // Global variable
 void myFunction() {
-    cout << globalVar << endl;  // Accessing the global variable
+    int localVar = 20;  // Local variable
+    cout << localVar << endl;  // Accessible here
 }
 
 int main() {
-    cout << globalVar << endl;  // Accessible here
-    myFunction();  // Accessible here
+    myFunction();
+    cout << globalVar << endl;  // Error: 'localVar' was not declared in this scope
     
 }
