@@ -1,30 +1,40 @@
-#include <iostream>
-#include <string>  // For using string functions
-#include <algorithm>  // For using transform function
+#include <bits/stdc++.h>
 using namespace std;
 
-// Function to print the greeting
-void printGreeting(const string& name) {
+// Function to calculate the area of a square
+int area(int side) {
+    // Complete the function
+    return side * side;
+} 
 
-    // Convert the greeting to uppercase
-    string upperGreeting = "Hello, " + name + "!";
-    string lowerGreeting = "Hello, " + name + "!";
+// Overloaded function to calculate the surface area of a cube
+int area(int side, bool isCube) {
+    // Complete the function
+    if (isCube) {
+        return 6 * side * side;
+    }
+    return 0;
+}
 
-    // converts the string to lowercase
-    transform(lowerGreeting.begin(), lowerGreeting.end(), lowerGreeting.begin(), ::tolower);
-    transform(upperGreeting.begin(), upperGreeting.end(), upperGreeting.begin(), ::toupper);
-
-    // Print the final result
-    cout << "Final Result: " << lowerGreeting << endl;
-    cout << "Final Result: " << upperGreeting << endl;
+// Overloaded function to calculate the area of a circle
+double area(double radius) {
+    // Complete the function
+    return 3.14159 * radius * radius;
 }
 
 int main() {
-    // The name to be used in the greeting
-    string name = "Alice";
-    
-    printGreeting(name);
+    int a, b;
+    double r;
 
+    cin >> a;
 
-    
+    cin >> b;
+
+    cin >> r;
+
+    cout << area(a) << endl;
+    cout << area(b, true) << endl;
+    cout << area(r) << endl;
+
+    return 0;
 }
