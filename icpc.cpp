@@ -54,20 +54,9 @@
 #include <GL/gl.h>            // OpenGL
 #include <GL/glu.h>           // OpenGL Utility Library
 
-// Function prototype
-int multiplyNumbers(int x, int y);
+// C++ Syntex Basic
 
-int main()
-{
-    int num1 = 3, num2 = 7;
-    int result = multiplyNumbers(num1, num2); // Calling the function
-    std::cout << "The product is: " << result << std::endl;
+int main() {
+
     return 0;
-}
-
-// Function definition
-int multiplyNumbers(int x, int y)
-{
-    int product = x * y;
-    return product;
 }

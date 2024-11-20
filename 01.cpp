@@ -1,40 +1,11 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-// Function to calculate the area of a square
-int area(int side) {
-    // Complete the function
-    return side * side;
-} 
-
-// Overloaded function to calculate the surface area of a cube
-int area(int side, bool isCube) {
-    // Complete the function
-    if (isCube) {
-        return 6 * side * side;
-    }
-    return 0;
-}
-
-// Overloaded function to calculate the area of a circle
-double area(double radius) {
-    // Complete the function
-    return 3.14159 * radius * radius;
-}
-
 int main() {
-    int a, b;
-    double r;
-
-    cin >> a;
-
-    cin >> b;
-
-    cin >> r;
-
-    cout << area(a) << endl;
-    cout << area(b, true) << endl;
-    cout << area(r) << endl;
-
+    int x = 40;
+    int *p;
+    p = &x;
+    cout << p;
+    
     return 0;
 }
